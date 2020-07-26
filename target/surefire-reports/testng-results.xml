@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21817" started-at="2020-03-21T10:49:04Z" finished-at="2020-03-21T10:49:26Z">
+  <suite name="Suite" duration-ms="32079" started-at="2020-07-26T14:27:37Z" finished-at="2020-07-26T14:28:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21817" started-at="2020-03-21T10:49:04Z" finished-at="2020-03-21T10:49:26Z">
+    <test name="Test" duration-ms="32079" started-at="2020-07-26T14:27:37Z" finished-at="2020-07-26T14:28:09Z">
       <class name="com.ClearTrip.Tests.SearchandSelectFlightTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@4206a205]" name="setup" is-config="true" duration-ms="15833" started-at="2020-03-21T10:49:04Z" finished-at="2020-03-21T10:49:20Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@1a052a00]" name="setup" is-config="true" duration-ms="25244" started-at="2020-07-26T14:27:37Z" finished-at="2020-07-26T14:28:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="clearTripSearchFlight()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@4206a205]" name="clearTripSearchFlight" duration-ms="5822" started-at="2020-03-21T10:49:20Z" finished-at="2020-03-21T10:49:26Z">
+        <test-method status="PASS" signature="clearTripSearchFlight()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@1a052a00]" name="clearTripSearchFlight" duration-ms="6149" started-at="2020-07-26T14:28:03Z" finished-at="2020-07-26T14:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearTripSearchFlight -->
-        <test-method status="PASS" signature="clearTripSelectFlight()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@4206a205]" name="clearTripSelectFlight" duration-ms="121" started-at="2020-03-21T10:49:26Z" depends-on-methods="com.ClearTrip.Tests.SearchandSelectFlightTest.clearTripSearchFlight" finished-at="2020-03-21T10:49:26Z">
+        <test-method status="PASS" signature="clearTripSelectFlight()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@1a052a00]" name="clearTripSelectFlight" duration-ms="645" started-at="2020-07-26T14:28:09Z" depends-on-methods="com.ClearTrip.Tests.SearchandSelectFlightTest.clearTripSearchFlight" finished-at="2020-07-26T14:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearTripSelectFlight -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@4206a205]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-21T10:49:26Z" finished-at="2020-03-21T10:49:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@1a052a00]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-26T14:28:09Z" finished-at="2020-07-26T14:28:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

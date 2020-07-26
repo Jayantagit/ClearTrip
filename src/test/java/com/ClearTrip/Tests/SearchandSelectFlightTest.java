@@ -14,6 +14,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class SearchandSelectFlightTest {
 
 	//public WebDriver driver = null;
@@ -23,7 +25,9 @@ public class SearchandSelectFlightTest {
 	@BeforeClass
 	public void setup() {
 		String path = System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", path + "\\resource\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", path + "\\resource\\chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
+		//Webdriver.chromedriver.setup();
 		driver = new ChromeDriver();
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
