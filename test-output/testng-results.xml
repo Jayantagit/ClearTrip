@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25300" started-at="2020-03-21T08:45:47Z" finished-at="2020-03-21T08:46:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25300" started-at="2020-03-21T08:45:47Z" finished-at="2020-03-21T08:46:13Z">
+      <class name="com.ClearTrip.Tests.SearchandSelectFlightTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@73846619]" name="setup" is-config="true" duration-ms="18462" started-at="2020-03-21T08:45:47Z" finished-at="2020-03-21T08:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="clearTripSearchFlight()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@73846619]" name="clearTripSearchFlight" duration-ms="5910" started-at="2020-03-21T08:46:06Z" finished-at="2020-03-21T08:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTripSearchFlight -->
+        <test-method status="PASS" signature="clearTripSelectFlight()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@73846619]" name="clearTripSelectFlight" duration-ms="108" started-at="2020-03-21T08:46:12Z" depends-on-methods="com.ClearTrip.Tests.SearchandSelectFlightTest.clearTripSearchFlight" finished-at="2020-03-21T08:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearTripSelectFlight -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ClearTrip.Tests.SearchandSelectFlightTest@73846619]" name="tearDown" is-config="true" duration-ms="772" started-at="2020-03-21T08:46:12Z" finished-at="2020-03-21T08:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ClearTrip.Tests.SearchandSelectFlightTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
